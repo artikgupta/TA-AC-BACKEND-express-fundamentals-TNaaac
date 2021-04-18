@@ -1,0 +1,23 @@
+{
+  "name": "ta-ac-backend-express-fundamentals-tnaaac",
+  "version": "1.0.0",
+  "description": "JavaScript lies at the heart of almost every modern web application, from social apps to the newest browser-based games. Though simple for beginners to pick up and play with, JavaScript is a flexible, complex language that you can use to build full-scale applications.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/artikgupta/TA-AC-BACKEND-express-fundamentals-TNaaac.git"
+  },
+  "author": "Marijn Haverbeke",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/artikgupta/TA-AC-BACKEND-express-fundamentals-TNaaac/issues"
+  },
+  "homepage": "https://github.com/artikgupta/TA-AC-BACKEND-express-fundamentals-TNaaac#readme",
+  "dependencies": {
+    "cookie-parser": "^1.4.5",
+    "morgan": "^1.10.0"
+  }
+}
