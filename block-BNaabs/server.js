@@ -23,7 +23,7 @@ next()
 
 app.use(express.json())
 
-// app.use(express.urlencoded({extend:false}))
+app.use(express.urlencoded({extended:false}))
 
 app.get('/',(req,res) => {
     console.log(__dirname)
@@ -37,12 +37,17 @@ app.get('/',(req,res) => {
         })
       
 
+        app.get("/users/:username",(req,res)=>{
+            var username = req.params.username;
+            res.send(username)
+        })
+
 app.use(express.static(__dirname + "/public"))
 
 
             
 app.post("/new",(req,res)=>{
-   console.log(req.body)
+   res.json(req.body)
 })
 
 
