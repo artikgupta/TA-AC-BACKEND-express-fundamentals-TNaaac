@@ -3,12 +3,12 @@ var express = require("express")
 var app = express();
 
 
-app.use(logger("dev"))
 
 const cookieParser = require("cookie-parser")
 
 var logger = require("morgan")
 
+app.use(logger("dev"))
 app.use(express.json())
 
 app.use(express.urlencoded({extended:false}))
